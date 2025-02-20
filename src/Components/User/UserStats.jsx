@@ -1,7 +1,13 @@
 import React from 'react';
+import Head from '../Helper/Head';
 
 const UserStats = () => {
-  return <div>Statistics</div>;
+  return (
+    <div>
+      <Head title="Statistics" />
+      Statistics
+    </div>
+  );
 };
 
 export default UserStats;
