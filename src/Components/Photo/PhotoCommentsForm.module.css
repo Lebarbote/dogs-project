@@ -21,7 +21,7 @@
 .textarea:focus,
 .textarea:hover {
   outline: none;
-  border-color: #fb1;
+  border-color: #008B8B;
   background: white;
   box-shadow: 0 0 0 3px #fea;
 }
