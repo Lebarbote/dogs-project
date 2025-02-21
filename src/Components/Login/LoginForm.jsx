@@ -35,7 +35,7 @@ const LoginForm = () => {
         ) : (
           <Button>Enter</Button>
         )}
-        <Error error={error} />
+        <Error error={error && 'Incorrect data.'} />
       </form>
       <Link className={styles.lost} to="/login/lost">
         Lost your password?
@@ -44,7 +44,7 @@ const LoginForm = () => {
         <h2 className={styles.subtitle}>Enter your registration</h2>
         <p>Don't have an account? Register on the website.</p>
         <Link className={stylesBtn.buttonCreate} to="/login/create">
-          Register
+          <Button>Register</Button>
         </Link>
       </div>
     </section>
