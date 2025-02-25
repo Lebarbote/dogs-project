@@ -1,14 +1,14 @@
 .login {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-width: 100vh;
+  min-height: 100vh;
   gap: 2rem;
 }
 
 .login::before {
   display: block;
   content: '';
-  background: url('../../Assets/login.jpg') no-repeat center center;
+  background: url('../../Assets/photo-login.jpg') no-repeat center center;
   background-size: cover;
 }
 
