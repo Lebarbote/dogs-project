@@ -4,8 +4,8 @@ import svgr from 'vite-plugin-svgr';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/dogs-project/',
   plugins: [react(), svgr()],
-  // base: '/dogs-project',
   server: {
     port: 5175,
     strictPort: true,
